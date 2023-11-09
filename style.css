@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+h1{
+    background-color:chocolate;
+    padding:10px;
+    
+}
+h3{
+    color:chocolate;
+}
+.container{
+    padding:10px;
+}
+.book-container{
+    padding-top: 30px;
+    background-color:#302d2c;
+    width: 25%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    margin:20px;
+}
+.book-container button{
+    background-color: chocolate;
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.addbtn{
+    font-size:40px;
+    background-color: chocolate;
+    border-radius:100%;
+    padding-right:20px;
+    padding-left: 20px;
+    border: none;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+}
+.popup-overlay{
+background-color: black;
+    opacity:0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+.form{
+    background-color: chocolate;
+    width: 500px;
+    height:350px;
+    z-index:2;
+    position: absolute;
+    border-radius: 10px;
+    padding:30px;
+    left:30%;
+    top:20%;
+    display:none;
+}
+.form h2{
+    padding-bottom: 20px;
+}
+.form input{
+    width: 100%;
+    background-color: chocolate;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    
+}
+.form textarea{
+    width: 100%;
+    background-color: chocolate;
+    border: none;
+    margin: 5px;
+    padding-top: 30px;
+    padding: 5px;
+    height: 50%;
+    border: 2px solid black;
+    
+}
+.form input:focus{
+    outline: none;
+}
+.form textarea:focus{
+    outline: none;
+}
+.form ::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.form button{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 15%;
+    background-color: black;
+    color: white;
+}
